@@ -3,10 +3,13 @@ Advertising Project using Logistic Regression, Decision Tree Classifier and Rand
 
 Introduction
 
-The goal of this project is to utilize machine learning algorithms to classify whether or not a particular internet user clicked on an Advertisement on a company website.
+The goal of this project is to create a model to predict whether or not a particular internet user will click on an Advertisement on a company’s website. I have worked with three Machine learning algorithms Logistic Regression, decision Tree classifier and Random Forest classifier.
 
-Datasets
-In this project, I have used some fake advertising data set, indicating whether or not a particular internet user clicked on an Advertisement. I have worked with three Machine learning algorithms Logistic Regression, decision Tree classifier and Random Forest classifier to create a model that predicts accurately whether or not users will click on an ad based off the features of that user.
+
+Datasets:
+
+In this project, I have used some fake advertising data set, indicating whether or not a particular internet user clicked on an Advertisement.
+
 This data set contains the following features:
 1.	'Daily Time Spent on Site': consumer time on site in minutes
 2.	'Age': cutomer age in years
@@ -30,7 +33,6 @@ The machine learning algorithm process highlights the steps taken to get the mod
 5.	Pass the data into grid search Logistic Regression, Decision Tree classifier and RandomForest classifier
 6.	Evaluate the performance of the models using confusion matrix and classification report.
 
-Code for project can be found on my GitHub
 
 Results
 
@@ -41,9 +43,10 @@ The results of the 3 machine learning models evaluated are as follows:
 
 Conclusion
 
-Random forest classifier performed best with Precision, Recall, F1 score as 95%. Random forest classifier is a combination of decision trees and is protected from the problem overfitting due to it ensemble method. This project was an interesting to learn from and the outcomes from the result was used to further my knowledge in machine learning.
+Random forest classifier performed best with Precision, Recall, F1 score as 95%.It accurately predicted whether a particular internet user will click on an Advertisement on a company website or not. Random forest classifier is a combination of decision trees and is protected from the problem of overfitting as it is an ensemble method. 
+This project was very interesting and I learnt a lot from it 
 
-¥	Precision – What percent of your predictions were correct?
-¥	Recall – What percent of the positive cases did you catch?
-¥	F1 score – What percent of positive predictions were correct?
+Precision – What percent of your predictions were correct?
+Recall – What percent of the positive cases did you catch?
+F1 score – What percent of positive predictions were correct?
 
